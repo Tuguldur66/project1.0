@@ -1,0 +1,70 @@
+.section {
+  width: 1440px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.bg-lake {
+  background-image: url(HeroImage.png);
+}
+.logo{
+  top: '10px';
+  position: absolute;
+}
+.logo img{
+  height: 40px;
+  width: 100px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.header{
+  display: flex;
+  /* width: 1440px; */
+  height: 100px;
+  justify-content:center ;
+  font-size: 25px;
+  gap: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 40px;
+}
+.text{
+  color: white;
+  margin-top: 30px;
+}
+.eng img{
+ position: absolute;
+ /* margin-left: 1250px;  */
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  margin-top: 250px;
+}
+.body-text1{
+  color: aliceblue;
+  font-size: 60px;
+  opacity: 0.7  ;
+}
+.body-text2{
+  color: aliceblue;
+  font-size: 200px;
+}
+.body-text3{
+  color: aliceblue;
+  opacity: 0.7;
+  font-size: 90px;
+}
