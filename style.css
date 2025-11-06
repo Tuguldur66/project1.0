@@ -68,8 +68,31 @@
   opacity: 0.7;
   font-size: 90px;
 }
-.location{
-  background-image: url(Location\ image.png);
+.terkhiin{
+  background-image: url(terkh.png);
+  border-radius: 40px;
+  box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
+}
+.amarba{
+  background-image: url(amar.png);
+  border-radius: 40px;
+  box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
+}
+.khuvsgul{
+  background-image: url(huwsgul.png);
+  border-radius: 40px;
+  box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
+}
+.khorgiin{
+  background-image: url(khorg.png);
+  border-radius: 40px;
+  box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
+}
+.card{
+  display: flex;
+}
+.location {
+  background-image: url("Location image.png");
   width: 1440px;
   height: 512px;
   background-repeat: no-repeat;
@@ -77,45 +100,46 @@
   background-size: cover;
   margin: auto;
   display: flex;
-  justify-content:center;
-  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
-  
- /* .location img{
-  width:275.49px ;
-  height:370px ;
-} */
-/* .zuragnuud{
+.zuragnuud {
   display: flex;
-  gap: 50px;
-  margin-top: 65px;
-} */
-/* .zuragnuud img{
-  border: 1px grey;
+    gap: 50px;
   border-radius: 40px;
-  box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
-} */
- .card {
-  width:275.49px ;
-  height:370px ;
+}
+.card {
+  width: 275px;
+  height: 370px;
   border-radius: 40px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  position: absolute;
-  
- }
-.terkhiin{
-  background-image: url(terkh.png);
-}
-.amarba{
-  background-image: url(amar.png);
-}
-.khusvgul{
-  background-image: url(huwsgul.png);
-}
-.khorgiin{
-  background-image: url(khorg.png);
+  background-size: cover;
+  background-position: center;
 }
 .card{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 25px ;
+  font-family: sans-serif;
+
 }
+.card:hover{
+  filter: brightness(60%);
+}
+.roadmap{
+  background-image: url(Roadmap\ image.png);
+  width: 1440px;
+  height: 1022px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+}
+.pill{
+    border-style: solid;
+    width: 513px;
+    height: 112px;
+    overlay: auto;
+}
+
