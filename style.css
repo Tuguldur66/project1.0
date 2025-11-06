@@ -78,9 +78,44 @@
   margin: auto;
   display: flex;
   justify-content:center;
-  gap: 20px;
+  gap: 50px;
 }
-.location img{
+  
+ /* .location img{
   width:275.49px ;
   height:370px ;
+} */
+/* .zuragnuud{
+  display: flex;
+  gap: 50px;
+  margin-top: 65px;
+} */
+/* .zuragnuud img{
+  border: 1px grey;
+  border-radius: 40px;
+  box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
+} */
+ .card {
+  width:275.49px ;
+  height:370px ;
+  border-radius: 40px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  
+ }
+.terkhiin{
+  background-image: url(terkh.png);
+}
+.amarba{
+  background-image: url(amar.png);
+}
+.khusvgul{
+  background-image: url(huwsgul.png);
+}
+.khorgiin{
+  background-image: url(khorg.png);
+}
+.card{
+  display: flex;
 }
