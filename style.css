@@ -135,11 +135,83 @@
   background-size: cover;
   margin: auto;
   display: flex;
+
 }
 .pill{
-    border-style: solid;
     width: 513px;
     height: 112px;
-    overlay: auto;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
 }
-
+.pills{
+  margin-top: 260px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.square{
+  background-color: #EEE9D9;
+  
+}
+.monastery{
+  background-color: #8BB8C1CC;
+  opacity: 0.8;
+}
+.togoo{
+  background-color: #AAD8D7CC;
+  opacity: 0.8;
+}
+.tsagaan-lake{
+  background-color: #8BC0BDCC;
+  opacity: 0.8;
+}
+.lake{
+  background-color: #97CCE0CC;
+  opacity: 0.8;
+}
+.mid-text{
+  width: 1442px;
+  height: 85px;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px
+ 
+}
+.bot{
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+  gap: 10;
+}
+.top{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+.days{
+  font-size: 15px;
+  width: 52px;
+  height: 48px;
+  background-color: white;
+  border-radius: 360%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.pill:hover{
+  border: white 5px solid;
+}
+.middle{
+  width: 1200px;
+  height: 640px;
+  top: 264px;
+  left: 120px;
+}
