@@ -329,7 +329,8 @@
 .head-text{
   width: 1440px;
   height: 85px;
-  margin-top: 40px;
+  position: relative;
+  top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -365,5 +366,15 @@
 .details{
 width: 384px;
 height: 435px;
+}
+.price{
+  width: 336px;
+  height: 290px;
+  position: relative;
+  top: 12px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
