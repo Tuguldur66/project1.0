@@ -8,7 +8,7 @@
 }
 
 .bg-lake {
-  background-image: url(HeroImage.png);
+  background-image: url(images/HeroImage.png);
 }
 .logo{
   top: '10px';
@@ -69,30 +69,35 @@
   font-size: 90px;
 }
 .terkhiin{
-  background-image: url(terkh.png);
+  background-image: url(images/terkh.png);
   border-radius: 40px;
   box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .amarba{
-  background-image: url(amar.png);
+  background-image: url(images/amar.png);
   border-radius: 40px;
   box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
 }
 .khuvsgul{
-  background-image: url(huwsgul.png);
+  background-image: url(images/huwsgul.png);
   border-radius: 40px;
   box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
 }
 .khorgiin{
-  background-image: url(khorg.png);
+  background-image: url(images/khorg.png);
   border-radius: 40px;
   box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;;
 }
 .card{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .location {
-  background-image: url("Location image.png");
+  background-image: url(images/Location\ image.png);
   width: 1440px;
   height: 512px;
   background-repeat: no-repeat;
@@ -128,7 +133,7 @@
   filter: brightness(60%);
 }
 .roadmap{
-  background-image: url(Roadmap\ image.png);
+  background-image: url(images/Roadmap\ image.png);
   width: 1440px;
   height: 1022px;
   background-repeat: no-repeat;
@@ -191,7 +196,7 @@
   display: flex;
   flex-direction: row;
   margin-left: 35px;
-  gap: 10;
+  gap: 10px;
 }
 .top{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -310,7 +315,7 @@
   display: block;
 }
 .footer{
-  background-image: url(Price&Footer\ image.png);
+  background-image: url(images/Price&Footer\ image.png);
    width: 1440px;
   height: 1120px;
   background-repeat: no-repeat;
@@ -355,12 +360,20 @@
   left: 24px;
 }
 .small-logo{
-  width: 36px;
-  height: 36px;
+  width: 14px;
+  height: 14px;
 }
 .small-logo img{
-  width: 36px;
-  height: 36px;
+  width: 14px;
+  height: 14px;
+}
+.small-logo-2{
+  width: 34px;
+  height: 34px;
+}
+.small-logo-2{
+  width: 34px;
+  height: 34px;
 }
 .next{
   font-size: 18px;
