@@ -317,12 +317,13 @@
   background-size: cover;
   margin: auto;
   flex-direction: column;
-}.cards{
+}
+.cards{
   width: 1200px;
   height: 527px;
   position: relative;
   left: 120px;
-  top: 204px;
+  top: 113px;
   display:flex;
   gap: 24px;
 }
@@ -335,6 +336,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 }
 .size{
     width: 384px;
@@ -385,8 +387,74 @@ height: 435px;
   font-size: 16px;
   color: #919191;
 }
-.inculdes{
-  font-size: 14px;
+.select{
+  width: 336px;
+  height: 48px;
+  border-radius: 30px;
+  background-color: #A4D1E2;
   display: flex;
-  flex-direction: column  ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 24px;
+top: 37px;
+}
+.inc{
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.box:hover .select{
+  background-color: #292727;
+  color: white;
+}
+.box:hover{
+  box-shadow: 8px 8px #b8d7e1 ,  -8px -8px #8db9d6;
+}
+.small-logo{
+
+}
+.last{
+  width: 1440px;
+  height: 204px;
+  position: relative;
+  top: 303px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.op{
+  width: 1200px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.fb img{
+  width: 24px;
+  height: 24px;
+}
+.fb{
+  color: #6972B5;
+  height: 44px;
+  width: 167px;
+  font-size: 18px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.media{
+  display: flex;
+  flex-direction: row;
+  width: 358px;
+  height: 44px;
+  justify-content: space-between;
+}
+.end img{
+  width: 101px;
+  height: 35px;
 }
